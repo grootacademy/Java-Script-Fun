@@ -19,6 +19,9 @@ for (let i = 0; i < box.length; i++) {
     box[i].addEventListener('mouseenter', function () {
         // this.classList.toggle("active");
         this.style.background = `radial-gradient(rgb(${ran1}, ${ran2},  ${ran3}), rgb(${ran4}, ${ran5}, ${ran6}))`
+        setTimeout(() => {
+            this.style.background = "transparent"
+        }, 500);
     })
 
 }
