@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bubbly</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap"
+            rel="stylesheet">
+        <link rel="shortcut icon"
+            href="images/Purple-Color-shaped-G-letter-on-transparent-background-PNG.png"
+            type="image/x-icon">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="all_out">
+
+            <!-- Hunter  -->
+            <div id="bubble" onclick="bubbleClick()" class="bubble"></div>
+
+            <!-- Prey -->
+            <div class="bubble prey" id="prey"></div>
+
+            <!-- Obstacles -->
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+            <div class="bubble obstacle" id="obstacle"></div>
+
+            <!-- Start Button -->
+            <button class="start_button" onclick="start()">
+                Play Now <div>Click on bubble and earn score</div>
+            </button>
+
+            <!-- Score board -->
+            <div class="score"> <img src="images/icons8-skittle-60.png" alt="">
+                Score <span id="score"> 0 </span></div>
+            <div class="instruction">
+                <img src="images/icons8-user-manual-48.png" alt="">
+
+                Grab
+                <span style="color: yellow;"> yellow </span>
+                mark and do not touch
+                <span style="color: blue;" > blue </span>
+                mark
+
+            </div>
+
+            <!-- GameOver -->
+            <div class="game_over" id="gameOver">Game Over</div>
+        </div>
+    </body>
+</html>

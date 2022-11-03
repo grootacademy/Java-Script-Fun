@@ -1,0 +1,60 @@
+body {
+    background-color: #5e057e;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.bubble {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 1000px;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    display: none;
+    box-shadow: 0 0 10px 0 #5e057e inset;
+    cursor: pointer;
+}
+
+.score {
+    display: inline-block;
+    color: white;
+    background-color: #3e0553;
+    padding: 15px 30px;
+    padding-right: 0;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.score span {
+    background-color: #2a0438;
+    padding: 15px 20px;
+    margin-left: 10px;
+}
+
+.start_button {
+    position: absolute;
+    top: 40vh;
+    left: 40vw;
+    background-color: #c299d0;
+    font-size: large;
+    border: none;
+    padding: 15px 30px;
+    box-shadow: 10px 10px 5px 0 white;
+    font-family: 'Maven Pro', sans-serif !important;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.start_button:hover {
+    box-shadow: 5px 5px 0 0 white;
+}
+
+.start_button div {
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 3px 20px;
+    background-color: #f3d3ff ;
+    color: #2a0438;
+    border-radius: 100px;
+}
